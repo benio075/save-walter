@@ -34,6 +34,12 @@ header a {
     text-shadow: -4px 1px 0px cyan;
 }
 
+main {
+    max-width: 1700px;
+    background-image: linear-gradient(to top right, #3d91ff, #1e00ff);
+    margin: auto;
+}
+
 main span { 
     display: flex;
     gap: 550px;
