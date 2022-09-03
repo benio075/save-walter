@@ -48,6 +48,8 @@ main span {
 
 .walter {
     font-family: doom;
+    margin-top: 0px;
+    margin-bottom: 5px;
     font-size: 9em;
     text-align: center;
     font-weight: normal;
