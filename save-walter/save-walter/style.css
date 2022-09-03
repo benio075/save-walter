@@ -1,0 +1,77 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: doom;
+    src: url(Fonte/amazdoom/AmazDooMRight.ttf);
+}
+
+body {
+    background-image: linear-gradient(to right, #ff3df6, #c700ff);    
+    margin: 3px;
+    margin-bottom: 35px;
+}
+
+header {
+    background-image: linear-gradient(to right, rgb(0, 255, 0), rgb(0, 90, 0));
+    height: 50px;
+    padding: 10px;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+header a {
+    color: red;
+    margin: 5px; 
+    margin-right: 20px;
+    margin-left: 20px;   
+    padding: 5px;
+    font-size: 39px;
+    text-decoration: none;
+    background-image: linear-gradient(to right, #6d93ee, #8346e6);
+    border-radius: 4px;
+    text-shadow: -4px 1px 0px cyan;
+}
+
+main span { 
+    display: flex;
+    gap: 550px;
+}
+
+.walter {
+    font-family: doom;
+    font-size: 9em;
+    text-align: center;
+    font-weight: normal;
+    color: rgb(255, 0, 106);
+    text-shadow: 3px 8px 0px #460040;
+}
+
+#sobre {
+    background-color: rgb(255, 0, 0);
+    width: 965px;
+    font-family: cursive;
+    font-size: 40px;
+    color: green;
+    font-weight: bold;
+    border-radius: 8px;
+    padding: 7px;
+    margin: auto;
+}
+
+#painel {
+    margin: auto;
+    text-align: center;
+    width: 700px;
+}
+
+#total {
+    width: 800px;
+    margin: auto;
+    border: 20px solid black;
+}
+
+.imagem {
+   margin: 7px;    
+}
