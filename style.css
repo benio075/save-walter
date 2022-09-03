@@ -89,11 +89,12 @@ main span {
 p#script {
     width: 70%;
     font-family: cursive;
-    color: blueviolet;
+    font-size: 2em;
+    color: rgb(0, 255, 242);
     background-color: green;
     padding: 10px;
     border-radius: 10px;
     margin: auto;
-    text-shadow: 1px 1px 1px black;
+    text-shadow: 5px 2px 1px #ff00e0;
     text-align: center;    
 }
