@@ -35,14 +35,15 @@ header a {
 }
 
 main {
-    max-width: 1700px;
+    max-width: 1800px;
+    min-width: 1715;
     background-image: linear-gradient(to top right, #3d91ff, #1e00ff);
     margin: auto;
 }
 
 main span { 
     display: flex;
-    gap: 550px;
+    gap: 24%;
 }
 
 .walter {
@@ -54,7 +55,7 @@ main span {
     text-shadow: 3px 8px 0px #460040;
 }
 
-#sobre {
+.sobre {
     background-color: rgb(255, 0, 0);
     width: 965px;
     font-family: cursive;
@@ -64,6 +65,7 @@ main span {
     border-radius: 8px;
     padding: 7px;
     margin: auto;
+    margin-bottom: 15px;
 }
 
 #painel {
